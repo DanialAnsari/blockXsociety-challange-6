@@ -2,9 +2,8 @@ pragma solidity ^0.6.0;
 
 contract Challange6{
     
-    uint256 public time;
     
-       function callKeccak256(address  _add, address _add2) public pure returns(bytes32 result){
+       function useKeccak256(address  _add, address _add2) public pure returns(bytes32 result){
         uint160 num =uint160(_add);
         
         uint160 num2=uint160(_add2);
